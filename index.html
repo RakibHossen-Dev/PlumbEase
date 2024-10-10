@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlumbEase</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="bg-gray-800 lg:static relative">
+      <nav class="flex justify-between items-center w-11/12 mx-auto py-10">
+        <div class="flex justify-center items-center gap-2">
+          <img class="w-8 h-8" src="img/plumber.png" alt="" />
+          <a class="text-3xl font-bold text-white"
+            ><span class="text-lime-400">Plumb</span>Ease</a
+          >
+        </div>
+        <div>
+          <ul
+            id="main-Menu"
+            class="lg:flex lg:flex-row flex-col hidden lg:py-0 py-2 z-10 rounded-md lg:p-0 p-4 text-center justify-center items-center gap-4 lg:static absolute top-28 right-0 bg-gray-800 lg:bg-none"
+          >
+            <li>
+              <a
+                class="text-white hover:text-lime-600 hover:font-medium"
+                href=""
+                >Home</a
+              >
+            </li>
+            <li>
+              <a class="text-white hover:text-lime-400" href="#about">About</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-lime-400" href="#Service"
+                >Service</a
+              >
+            </li>
+            <li>
+              <a class="text-white hover:text-lime-400" href="">Blog</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-lime-400" href="#Testimonial"
+                >Testimonial</a
+              >
+            </li>
+            <li>
+              <a class="text-white hover:text-lime-400" href="#Contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <i
+            id="bers-icon"
+            class="fa-solid fa-bars-staggered cursor-pointer text-lime-400 text-2xl lg:hidden"
+          ></i>
+        </div>
+      </nav>
+    </header>
+    <!-- banner  -->
+
+    <section>
+      <div
+        class="hero lg:min-h-screen h-[550px]"
+        style="background-image: url(img/banner.jpg)"
+      >
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content">
+          <div>
+            <h1 class="mb-5 lg:text-5xl text-3xl font-medium text-lime-400">
+              Reliable Plumbing Services <br />at Your Doorstep
+            </h1>
+            <p class="mb-5 text-white lg:w-2/3">
+              Fast, Affordable, and Expert Solutions for All Your Plumbing
+              Needs. Whether it’s a leaky faucet, clogged drain, or a major
+              plumbing emergency, we’ve got you covered. Our licensed
+              professionals are just a call away, offering top-notch service you
+              can trust.
+            </p>
+            <button
+              class="px-8 py-3 text-white hover:text-gray-600 font-medium border border-lime-400 hover:bg-lime-400"
+            >
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section  -->
+    <section
+      id="about"
+      class="w-11/12 mx-auto mt-10 lg:mt-20 flex lg:flex-row flex-col gap-10"
+    >
+      <div class="lg:w-1/2 flex lg:flex-row flex-col">
+        <div class="relative mb-28 lg:mb-0">
+          <img class="w-9/12 rounded-md" src="img/about-2.jpg" alt="" />
+          <img
+            class="absolute top-24 lg:top-40 left-40 md:left-72 md:w-80 h-52 md:h-64 rounded-md"
+            src="img/about-1.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="lg:w-1/2">
+        <h3 class="text-2xl font-bold text-lime-400">About Us</h3>
+        <div class="border-4 mt-1 border-dashed border-lime-400 w-14"></div>
+        <p class="mt-6 text-gray-500">
+          At Plumbease, we are more than just plumbers—we are your trusted
+          partners in ensuring the comfort and safety of your home or business.
+          With years of experience, a highly skilled team, and a passion for
+          excellence, we specialize in providing comprehensive plumbing services
+          that meet your needs.
+        </p>
+        <p class="mt-8 text-gray-500">
+          Our services range from routine maintenance and repairs to complex
+          installations and emergency solutions. We pride ourselves on offering
+          reliable, fast, and affordable services without compromising quality.
+        </p>
+        <button
+          class="px-6 mt-5 py-3 text-gray-600 font-medium border border-lime-400 hover:bg-lime-400"
+        >
+          Read More
+        </button>
+      </div>
+    </section>
+
+    <section class="w-11/12 mx-auto mt-14 lg:mt-36 mb-10">
+      <div
+        class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-center items-center gap-5 lg;gap-10"
+      >
+        <div
+          class="flex flex-col justify-center items-center border border-lime-400 space-y-3 text-center p-5 rounded-md shadow-xl hover:shadow-lime-200"
+        >
+          <img class="w-14" src="img/low-cost.png" alt="" />
+          <h3 class="text-xl font-bold text-lime-400">Affordable Price</h3>
+          <p class="text-gray-500">
+            We offer transparent, competitive rates with no hidden fees
+          </p>
+        </div>
+        <div
+          class="flex flex-col justify-center items-center border border-lime-400 space-y-3 text-center p-5 rounded-md shadow-xl hover:shadow-lime-200"
+        >
+          <img class="w-14" src="img/customer-service (1).png" alt="" />
+          <h3 class="text-xl font-bold text-lime-400">24/7 Service</h3>
+          <p class="text-gray-500">
+            Available 24/7 for fast, reliable solutions whenever you need us.
+          </p>
+        </div>
+        <div
+          class="flex flex-col justify-center items-center border border-lime-400 space-y-3 text-center p-5 rounded-md shadow-xl hover:shadow-lime-200"
+        >
+          <img class="w-14" src="img/integrity.png" alt="" />
+          <h3 class="text-xl font-bold text-lime-400">Quality Services</h3>
+          <p class="text-gray-500">
+            Delivering exceptional plumbing services with quality and care.
+          </p>
+        </div>
+        <div
+          class="flex flex-col justify-center items-center border border-lime-400 space-y-3 text-center p-5 rounded-md shadow-xl hover:shadow-lime-200"
+        >
+          <img class="w-14" src="img/insurance.png" alt="" />
+          <h3 class="text-xl font-bold text-lime-400">Fully Licensed</h3>
+          <p class="text-gray-500">
+            Fully licensed and insured for your peace of mind confidence.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- service section -->
+    <section id="Service" class="w-11/12 mx-auto my-16">
+      <div class="w-11/12 lg:w-9/12 mx-auto text-center">
+        <h3 class="text-3xl font-bold text-lime-400">Our Services</h3>
+        <div
+          class="border-4 mt-1 border-dashed border-lime-400 w-14 mx-auto"
+        ></div>
+
+        <p class="text-gray-500 mt-2">
+          We provide a full range of plumbing solutions, from repairs and
+          maintenance to installations and emergency services. Our expert team
+          is committed to delivering fast, reliable, and high-quality service
+          every time.
+        </p>
+      </div>
+      <div
+        class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-center items-center gap-5 lg:gap-10 mt-10"
+      >
+        <div
+          class="card glass rounded-none transform transition-transform hover:scale-105 shadow-md hover:shadow-lime-400"
+        >
+          <figure>
+            <img class="h-48 w-full" src="img/drain-cleaning.jpg" alt="car!" />
+          </figure>
+          <div class="p-3">
+            <h2 class="card-title text-lime-400">
+              Drain Cleaning & Unclogging
+            </h2>
+            <p class="text-gray-500 mt-3 pb-1">
+              We offer thorough drain cleaning services to ensure your pipes run
+              smoothly and unclog any blockages without causing damage.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card glass rounded-none transform transition-transform hover:scale-105 shadow-md hover:shadow-lime-400"
+        >
+          <figure>
+            <img class="h-44 w-full" src="img/Water Heater.jpg" alt="car!" />
+          </figure>
+          <div class="p-3">
+            <h2 class="card-title text-lime-400">
+              Water Heater Installation & Repair
+            </h2>
+            <p class="text-gray-500 mt-3">
+              Expert water heater installation and repair services for reliable
+              hot water and efficiency. Trust our skilled technicians to keep
+              your system running smoothly.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card glass rounded-none transform transition-transform hover:scale-105 shadow-md hover:shadow-lime-400"
+        >
+          <figure>
+            <img class="h-52 w-full" src="img/Sewer Line.jpg" alt="car!" />
+          </figure>
+          <div class="p-3">
+            <h2 class="card-title text-lime-400">Sewer Installation</h2>
+            <p class="text-gray-500 mt-3">
+              Professional sewer installation services for new constructions and
+              replacements. We ensure optimal performance and compliance with
+              all local regulations.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card glass rounded-none transform transition-transform hover:scale-105 shadow-md hover:shadow-lime-400"
+        >
+          <figure>
+            <img
+              class="h-52 w-full"
+              src="img/Bathroom & Kitchen.jpg"
+              alt="car!"
+            />
+          </figure>
+          <div class="p-3">
+            <h2 class="card-title text-lime-400">
+              Bathroom & Kitchen Remodeling
+            </h2>
+            <p class="text-gray-500 mt-3">
+              Looking to upgrade your kitchen or bathroom? We specialize in
+              installing new plumbing systems for renovations and remodels.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- compelted project  -->
+    <section class="my-20 bg-lime-400 py-10">
+      <div
+        class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-center items-center gap-8 w-11/12 mx-auto"
+      >
+        <div
+          class="flex flex-col justify-center items-center md:border-b-0 border-b-2 py-4 lg:py-0 md:border-r-2"
+        >
+          <img class="w-12 mb-2" src="img/done.png" alt="" />
+          <p class="text-4xl text-white font-bold">15K+</p>
+          <p class="text-2xl text-white font-medium">Project Done</p>
+        </div>
+        <div
+          class="flex flex-col justify-center items-center lg:border-r-2 md:border-b-0 border-b-2 py-4 lg:py-0"
+        >
+          <img class="w-12 mb-2" src="img/globe.png" alt="" />
+          <p class="text-4xl text-white font-bold">40+</p>
+          <p class="text-2xl text-white font-medium">Country Branch</p>
+        </div>
+        <div
+          class="flex flex-col justify-center items-center md:border-r-2 md:border-b-0 border-b-2 py-4 lg:py-0"
+        >
+          <img class="w-12 mb-2" src="img/plumber.png" alt="" />
+          <p class="text-4xl text-white font-bold">12+</p>
+          <p class="text-2xl text-white font-medium">Years Experience</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <img
+            class="w-12 mb-2"
+            src="img/best-customer-experience.png"
+            alt=""
+          />
+          <p class="text-4xl text-white font-bold">10K+</p>
+          <p class="text-2xl text-white font-medium">Satisfied Customers</p>
+        </div>
+      </div>
+    </section>
+    <!-- constct section -->
+    <section id="Contact" class="w-11/12 mx-auto my-20">
+      <div
+        class="flex lg:flex-row flex-col justify-center items-center gap-10 border p-4 border-lime-400"
+      >
+        <div class="lg:w-1/2">
+          <h3 class="lg:text-5xl text-3xl font-bold text-lime-400 mb-4">
+            Get in Touch with Us
+          </h3>
+          <p class="text-gray-600">
+            We’re committed to providing exceptional plumbing services tailored
+            to your needs. Whether you’re seeking expert advice, requesting a
+            service estimate, or dealing with an emergency, our team is ready to
+            assist you promptly and professionally.
+          </p>
+          <div class="flex items-center gap-2 mt-3">
+            <i
+              class="fa-solid fa-check text-white bg-lime-400 p-2 rounded-full"
+            ></i>
+            <p class="text-gray-600 text-xl">Expert Plumbers</p>
+          </div>
+          <div class="flex items-center gap-2 mt-3">
+            <i
+              class="fa-solid fa-check text-white bg-lime-400 p-2 rounded-full"
+            ></i>
+            <p class="text-gray-600 text-xl">Excellent worker</p>
+          </div>
+        </div>
+        <div class="lg:w-1/2 w-full">
+          <div class="">
+            <div class="flex flex-col gap-3">
+              <p class="text-center font-bold text-2xl text-lime-400">
+                Contact Information
+              </p>
+
+              <div class="flex lg:flex-row flex-col gap-3">
+                <input
+                  id="nameInput"
+                  class="w-full py-3 px-4 bg-lime-400 text-white rounded-xl placeholder:text-white"
+                  type="text"
+                  placeholder="First Name"
+                />
+
+                <input
+                  class="w-full py-3 px-4 bg-lime-400 text-white rounded-xl placeholder:text-white"
+                  type="text"
+                  placeholder="Last Name"
+                />
+              </div>
+              <div class="flex lg:flex-row flex-col gap-3">
+                <input
+                  class="w-full py-3 px-4 bg-lime-400 text-white rounded-xl placeholder:text-white"
+                  type="email"
+                  required
+                  placeholder="Type your email"
+                />
+                <input
+                  id="phone"
+                  class="w-full py-3 px-4 bg-lime-400 text-white rounded-xl placeholder:text-white"
+                  type="number"
+                  placeholder="Phone Number"
+                />
+              </div>
+              <input
+                class="w-full py-3 px-4 bg-lime-400 text-white rounded-xl placeholder:text-white"
+                type="text"
+                placeholder="Subject"
+              />
+              <textarea
+                class="bg-lime-400 rounded-xl placeholder:text-white text-white p-4"
+                name=""
+                placeholder="Type Your message"
+                id=""
+                cols="30"
+                rows="7"
+              ></textarea>
+              <button
+                id="btn"
+                disabled
+                onclick="submitbtn()"
+                class="btn bg-lime-400 text-white"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- modal -->
+    <!-- Open the modal using ID.showModal() method -->
+    <!-- <button class="btn" onclick="my_modal_1.showModal()">open modal</button> -->
+    <div id="modal"></div>
+
+    <!-- modal -->
+
+    <!-- Tesimonal-->
+
+    <section id="Testimonial" class="w-11/12 mx-auto my-10">
+      <div class="text-center lg:w-9/12 mx-auto w-11/12">
+        <h3 class="text-lime-400 text-3xl font-bold mb-3">Testimonial</h3>
+        <div
+          class="border-4 mt-1 border-dashed border-lime-400 w-14 mx-auto"
+        ></div>
+        <p class="text-gray-500">
+          Our clients trust us for fast, reliable, and professional plumbing
+          services. Read what some of our satisfied customers have to say about
+          their experience with our expert team. From quick repairs to major
+          installations, we take pride in delivering exceptional service and
+          exceeding expectations every time.
+        </p>
+      </div>
+
+      <div class="swiper p-4 rounded-md">
+        <ul class="swiper-wrapper mb-5">
+          <li class="swiper-slide bg-lime-400 p-4 rounded-md">
+            <div class="h-44">
+              <p class="paragraph mb-3 text-gray-500">
+                "We had a major plumbing issue, and the team responded quickly
+                and professionally. They fixed our problem efficiently, and the
+                service was top-notch. We highly recommend them for any plumbing
+                needs!"
+              </p>
+              <div class="flex gap-2">
+                <img
+                  class="w-12 h-12 rounded-full"
+                  src="img/hero-person.jpg"
+                  alt=""
+                />
+                <div>
+                  <p class="text-gray-50 font-bold">Jhone Dev</p>
+                  <p class="text-gray-50">Designer</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide bg-lime-400 rounded-md p-3">
+            <div class="h-44">
+              <p class="paragraph text-gray-500 mb-2">
+                "Fantastic service! The team was prompt, courteous, and did an
+                amazing job installing our new water heater. I'm so glad I chose
+                them!"
+              </p>
+              <div class="flex gap-2">
+                <img
+                  class="w-12 h-12 rounded-full"
+                  src="img/review-2.jpg"
+                  alt=""
+                />
+                <div>
+                  <p class="font-bold text-gray-50">Abdul Ahad</p>
+                  <p class="text-gray-50">Student</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide bg-lime-400 rounded-md p-3">
+            <div class="h-44">
+              <p class="paragraph text-gray-500 mb-2">
+                "I can't say enough good things about this company. They
+                provided thorough and honest work, and I felt valued as a
+                customer. Thank you for your hard work!"
+              </p>
+              <div class="flex gap-2">
+                <img
+                  class="w-12 h-12 rounded-full"
+                  src="img/review-9.jpg"
+                  alt=""
+                />
+                <div>
+                  <p class="font-bold text-gray-50">Abdul Kader</p>
+                  <p class="text-gray-50">Professor</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide bg-lime-400 rounded-md p-3">
+            <div class="h-44">
+              <p class="paragraph text-gray-500 mb-2">
+                "Top-notch service! They arrived on time and were very
+                knowledgeable. They solved our problem efficiently. Will
+                definitely call them again!"
+              </p>
+              <div class="flex gap-2">
+                <img
+                  class="w-12 h-12 rounded-full"
+                  src="img/member-2.png"
+                  alt=""
+                />
+                <div>
+                  <p class="font-bold text-gray-50">Mark Del</p>
+                  <p class="text-gray-50">Developer</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide bg-lime-400 rounded-md p-3">
+            <div class="h-44">
+              <p class="paragraph text-gray-600 mb-2">
+                "I had a wonderful experience with this plumbing team. They were
+                professional, friendly, and explained everything clearly. Our
+                bathroom looks great now!"
+              </p>
+              <div class="flex gap-2">
+                <img
+                  class="w-12 h-12 rounded-full"
+                  src="img/member-4.png"
+                  alt=""
+                />
+                <div>
+                  <p class="font-bold text-gray-50">Mohammad</p>
+                  <p class="text-gray-50">Lawyer</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide bg-lime-400 rounded-md p-3">
+            <div class="h-44">
+              <p class="paragraph text-gray-600 mb-2">
+                "Exceptional service! The plumbers were quick to respond and
+                fixed our leak in no time. Highly recommend their expertise!"
+              </p>
+              <div class="flex gap-2">
+                <img
+                  class="w-12 h-12 rounded-full"
+                  src="img/review-4.jpg"
+                  alt=""
+                />
+                <div>
+                  <p class="text-gray-50 font-bold">Shawon Islam</p>
+                  <p class="text-gray-50">Student</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <footer class="bg-lime-400 py-10">
+      <section class="w-11/12 mx-auto">
+        <div
+          class="grid lg:grid-cols-3 grid-cols-1 justify-between items-center gap-4 lg:gap-10"
+        >
+          <div
+            class="flex flex-col justify-center lg:items-start items-center lg:text-start text-center"
+          >
+            <div class="mb-4">
+              <a href="#" class="text-textColor text-xl lg:text-3xl font-bold">
+                <span class="text-white">Plaum</span>Ease</a
+              >
+            </div>
+            <a class="text-white text-xl">About Us</a>
+            <p class="text-textColor mt-2">
+              We are a team of skilled plumbers committed to delivering reliable
+              and efficient plumbing solutions. With years of experience and a
+              passion for quality service, we ensure your plumbing systems
+              function flawlessly.
+            </p>
+          </div>
+          <div class="flex flex-col lg:items-start items-center">
+            <p class="text-white text-xl mb-2">Quick Links</p>
+            <a class="text-textColor hover:text-white" href="#">Blog</a>
+            <a class="text-textColor hover:text-white" href="#">Contact</a>
+            <a class="text-textColor hover:text-white" href="#">Service</a>
+            <a class="text-textColor hover:text-white" href="#">Support</a>
+            <a class="text-textColor hover:text-white" href="#"
+              >Privacy Policy</a
+            >
+            <a class="text-textColor hover:text-white" href="#"
+              >Terms and Condition</a
+            >
+          </div>
+          <div
+            class="flex flex-col justify-center lg:items-start items-center lg:text-start"
+          >
+            <p class="text-white text-xl mb-3">Subscribre Now</p>
+            <div class="flex items-center">
+              <input
+                class="bg-text border-none focus:outline-primary lg:px-6 px-4 py-3"
+                type="text"
+                placeholder="Enter your email"
+              />
+              <button
+                class="btn bg-gray-800 border-none e rounded-none text-white"
+              >
+                Subscribe
+              </button>
+            </div>
+            <p class="text-white font-bold my-3">Follow Us</p>
+            <div class="flex items-center gap-3">
+              <a href="https://www.instagram.com/?hl=en">
+                <i
+                  class="fa-brands fa-instagram text-gray-600 hover:text-white text-2xl"
+                ></i>
+              </a>
+              <a href="https://web.facebook.com/">
+                <i
+                  class="fa-brands fa-facebook text-gray-600 hover:text-white text-2xl"
+                ></i>
+              </a>
+              <a href="https://x.com/?lang=en">
+                <i
+                  class="fa-brands fa-x-twitter text-gray-600 hover:text-white text-2xl"
+                ></i>
+              </a>
+              <a href="https://www.pinterest.com/">
+                <i
+                  class="fa-brands fa-pinterest text-gray-600 hover:text-white text-2xl"
+                ></i>
+              </a>
+              <a href="https://www.linkedin.com/feed/">
+                <i
+                  class="fa-brands fa-linkedin text-gray-600 hover:text-white text-2xl"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="border mt-6 mb-6 border-dotted border-white"></div>
+
+        <p class="text-center text-textColor text-sm">
+          © 2024 <span class="text-white">Plum</span>Ease. All Rights Reserved.
+        </p>
+      </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        speed: 400,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 3000,
+          disableOnInteration: false,
+        },
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        grabCursor: true,
+        breakpoints: {
+          // when window width is >= 320px
+          640: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 480px
+          760: {
+            slidesPerView: 2,
+          },
+          // when window width is >= 640px
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
